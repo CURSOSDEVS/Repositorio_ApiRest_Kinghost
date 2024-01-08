@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "apiRest"]
+	url = root@aprendaprogramando.vps-kinghost.net:/home/claudisnei/repo_api_rest_mariadb
+	fetch = +refs/heads/*:refs/remotes/apiRest/*
